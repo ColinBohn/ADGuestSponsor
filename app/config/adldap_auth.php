@@ -112,7 +112,7 @@ return [
 
         // Only allows users with a user principal name to authenticate.
 
-        //Adldap\Laravel\Scopes\UpnScope::class,
+        App\Scopes\StaffScope::class,
 
     ],
 
